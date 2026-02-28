@@ -1,4 +1,4 @@
-# 🎓 Student Management System
+#  Student Management System
 
 A CLI-based Student Management System built using **Python** and **MySQL**.
 
@@ -6,9 +6,9 @@ This project manages students, teachers, and courses with proper relational data
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 👩‍🎓 Student Module
+###  Student Module
 - Add new student
 - View student details
 - Update student information (Name cannot be updated)
@@ -17,14 +17,14 @@ This project manages students, teachers, and courses with proper relational data
 - View student's current course
 - Maintain student course history
 
-### 👨‍🏫 Teacher Module
+###  Teacher Module
 - Add new teacher
 - View all teachers
 - Soft delete teacher (Only if worked more than 30 days)
 - Assign teacher to course
 - Maintain teacher course history
 
-### 📚 Course Module
+###  Course Module
 - Add new course
 - View all courses
 - Assign course to student
@@ -32,7 +32,7 @@ This project manages students, teachers, and courses with proper relational data
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 - Python 3
 - MySQL
@@ -42,7 +42,7 @@ This project manages students, teachers, and courses with proper relational data
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 student_management_system/
@@ -68,7 +68,7 @@ student_management_system/
 
 ---
 
-## 🗄️ Database Tables
+## Database Tables
 
 - students
 - courses
@@ -85,22 +85,22 @@ student_management_system/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Clone Repository
+###  Clone Repository
 
 ```
 git clone https://github.com/Kavana-Gowda/student-management-system.git
 cd student-management-system
 ```
 
-### 2️⃣ Install Dependency
+### Install Dependency
 
 ```
 pip install mysql-connector-python
 ```
 
-### 3️⃣ Create Database
+### Create Database
 
 Login to MySQL:
 
@@ -109,17 +109,17 @@ CREATE DATABASE student_mgmt;
 USE student_mgmt;
 ```
 
-### 4️⃣ Run Schema File
+### Run Schema File
 
 ```
 mysql -u root -p student_mgmt < sql/schema.sql
 ```
 
-### 5️⃣ Update Database Credentials
+### Update Database Credentials
 
 Edit `config.py` and update your MySQL username and password.
 
-### 6️⃣ Run Application
+### Run Application
 
 ```
 python main.py
@@ -127,7 +127,7 @@ python main.py
 
 ---
 
-## 🔐 Business Rules Implemented
+## Business Rules Implemented
 
 - Student name cannot be updated
 - Soft delete for students and teachers
@@ -137,7 +137,7 @@ python main.py
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 - Role-based authentication
 - CSV import/export
@@ -148,10 +148,10 @@ python main.py
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 Kavana Gowda
 
 ---
 
-⭐ If you like this project, give it a star!
+If you like this project, give it a star!
